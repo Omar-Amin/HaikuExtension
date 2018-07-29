@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "HaikuExtension",
+  "description": "This extension makes a playlist of top week videos from r/youtubehaiku and puts in a sync-vid playlist.",
+  "version": "1.0.0",
+  "icons" : {"19" : "icon.png"},
+  "browser_action": {
+    "default_icon" :{"19": "icon.png"},
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage","tabs"],
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  }
+}
