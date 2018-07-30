@@ -8,9 +8,9 @@
     "default_icon" :{"19": "icon.png"},
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab", "declarativeContent", "storage","tabs"],
+  "permissions": ["https://*/*","http://*/*","tabs"],
   "background": {
     "scripts": ["popup.js"],
-    "persistent": false
+    "persistent": true
   }
 }
