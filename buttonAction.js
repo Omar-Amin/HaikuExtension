@@ -6,7 +6,7 @@
   //The data is written in json
   //Only visible in console (Look for 'Object')
   async function fetchTopFive() {
-  const URL = `https://www.reddit.com/r/youtubehaiku/top/.json?limit=5`; 
+  const URL = `https://www.reddit.com/r/youtubehaiku/top/.json?limit=50`;
   const fetchResult = fetch(URL)
   const response = await fetchResult;
   if (response.ok) {
