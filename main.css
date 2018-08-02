@@ -18,14 +18,14 @@ body {
 .swiggleBox{
   width: 130px;
   height: 65px;
-  left: 35px;
+  left: 42px;
 	top: 410px;
   color: #ff5e5b;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
-  line-height: 65px;
+  line-height: 62px;
   text-align: center;
-  position: relative;
+  position: absolute;
   cursor: pointer;
 }
 
@@ -57,4 +57,26 @@ svg path {
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
+}
+
+input{
+  width: 50px;
+  border-color: transparent;
+  border-bottom: 1px solid darkgrey;
+  color: #ff5e5b;
+  font-size: 15px;
+  margin-left: 73px;
+  margin-top: 350px;
+  position: relative;
+  background: transparent;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 3px;
+  font-size: 15px;
+  color: #ff5e5b;
 }
