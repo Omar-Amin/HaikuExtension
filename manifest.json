@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HaikuExtension",
-  "description": "This extension makes a playlist of top week videos from r/youtubehaiku and puts in a sync-vid playlist.",
+  "description": "This extension makes a playlist of top videos from r/youtubehaiku and puts in a sync-vid playlist.",
   "version": "1.0.0",
   "permissions": ["https://*/*","http://*/*","tabs"],
   "background": {
