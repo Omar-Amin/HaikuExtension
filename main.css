@@ -44,7 +44,7 @@ svg rect, svg path, svg polyline {
 }
 
 svg path {
-  stroke-dasharray: 265, 0;
+  stroke-dasharray: 205, 0;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
@@ -53,7 +53,7 @@ svg path {
 
 .swiggleBox:hover svg path {
   stroke-width: 2.5;
-  stroke-dasharray: 0, 350;
+  stroke-dasharray: 0, 70;
   stroke-dashoffset: 20;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
