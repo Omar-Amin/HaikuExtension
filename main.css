@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*Background*/
 body {
 	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #444;
@@ -15,6 +16,7 @@ body {
 	display:flex;
 }
 
+/*Click button*/
 .swiggleBox{
   width: 130px;
   height: 65px;
@@ -59,15 +61,16 @@ svg path {
   -o-transition: all 1s ease-in-out;
 }
 
+/*Input*/
 input{
   width: 50px;
   border-color: transparent;
   border-bottom: 1px solid darkgrey;
   color: #ff5e5b;
   font-size: 15px;
-  margin-left: 73px;
-  margin-top: 350px;
-  position: relative;
+  left: 83px;
+  top: 366px;
+  position: absolute;
   background: transparent;
 }
 
@@ -76,7 +79,27 @@ input:focus{
 }
 
 input::-webkit-input-placeholder {
-  padding-left: 3px;
+  padding-left: 3.6px;
   font-size: 15px;
   color: #ff5e5b;
+}
+
+/*Title*/
+.title{
+  font-size: 1.0rem;
+  color: #ff5e5b;
+  left: 47px;
+  text-align: center;
+}
+
+/*Description*/
+.description{
+  font-size: 0.85rem;
+  color: #FFE1E1;
+  width: 160px;
+  height: 300px;
+  top: 105px;
+  left: 27px;
+  text-align: center;
+    position: absolute;
 }

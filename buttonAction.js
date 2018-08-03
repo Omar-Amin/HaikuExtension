@@ -1,10 +1,10 @@
-//Auto joins the lobby
-document.getElementsByTagName('button')[14].click();
-
 //We get the data from top haiku
 //The data is written in json
 //Only visible in console (Look for 'Object')
 async function fetchTop() {
+  //Auto joins the lobby
+  document.getElementsByTagName('button')[14].click();
+
   const URL = "https://www.reddit.com/r/youtubehaiku/top/.json?limit=50";
   try {
     const fetchResult = fetch(new Request(URL, { method: 'GET', cache: 'reload' }));

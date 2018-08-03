@@ -7,17 +7,20 @@
 	});
 });*/
 
-
 document.addEventListener('DOMContentLoaded',function() {
   var swiggleBox = document.getElementById('btnOpenLink');
   swiggleBox.addEventListener('click',function(tab){
-		chrome.tabs.create({url:"https://www.sync-video.com/random"});
-			chrome.tabs.executeScript(tab.ib, {
-				file: 'buttonAction.js'
-			});
+    setVids(tab);
   });
 });
 
+
+function setVids(tab){
+  chrome.tabs.create({url:"https://www.sync-video.com/random"});
+  chrome.tabs.executeScript(tab.ib, {
+    file: 'buttonAction.js'
+  });
+}
 
 
 /* Idk what this is, but let's keep it
