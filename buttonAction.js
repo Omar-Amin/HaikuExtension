@@ -5,7 +5,7 @@ async function fetchTop() {
   //Auto joins the lobby
   document.getElementsByTagName('button')[14].click();
 
-  const URL = "https://www.reddit.com/r/youtubehaiku/top/.json?limit=50";
+  const URL = "https://www.reddit.com/r/youtubehaiku/top/.json??sort=top&t=week&limit=50";
   try {
     const fetchResult = fetch(new Request(URL, { method: 'GET', cache: 'reload' }));
     const response = await fetchResult;
